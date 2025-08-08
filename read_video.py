@@ -1,7 +1,7 @@
 import cv2 as cv
 
-# capture = cv.VideoCapture('videos/video1.mp4')
-capture = cv.VideoCapture(0)
+capture = cv.VideoCapture('videos/video1.mp4')
+# capture = cv.VideoCapture(0)
 
 while True:
     isTrue, frame = capture.read()
